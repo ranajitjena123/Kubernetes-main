@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image:
+        image: veeranarni/hotstar
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
